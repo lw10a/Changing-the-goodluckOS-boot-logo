@@ -1,3 +1,13 @@
+> [!CAUTION]
+> # ⚠️ USE AT YOUR OWN RISK
+>
+> **This script writes directly to a raw SD card device. Choosing the wrong device can PERMANENTLY DESTROY DATA on your computer.**
+>
+> - Double-check the device name with `lsblk` before running it. Pass the **whole SD card** (e.g. `/dev/sdb`), never your system disk.
+> - Back up your SD card (games, saves, settings) first.
+> - This is an unofficial, community-made tool. It is **not affiliated with or endorsed by the goodluckOS project**.
+> - Tested manually only on an R36S clone (GA36-MB v1.1) running goodluckOS. It may not work on other devices or card layouts.
+> - The author takes **no responsibility** for damaged cards, lost data or bricked devices.
 # Changing-the-goodluckOS-boot-logo
 Change the goodluckOS boot logo on an SD card
 # Changing the goodluckOS boot logo
